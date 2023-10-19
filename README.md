@@ -5,7 +5,9 @@ Based on: https://developer.confluent.io/get-started/go/
 
 To be used with: https://github.com/chuahjw/prometheus-kafka-adapter
 
-Build:
+Edit `kafka-prometheus-exporter.properties` file to connect to Kafka Cluster.
+
+Build and run:
 ```
 go mod init kafka-prometheus-exporter
 go get github.com/confluentinc/confluent-kafka-go/kafka
